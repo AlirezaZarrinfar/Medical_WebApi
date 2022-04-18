@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Hospital_WebApi.Persistance</id>
+    <version>1.0.0</version>
+    <authors>Hospital_WebApi.Persistance</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Hospital_WebApi.Application" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Hospital_WebApi.Domain" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="5.0.10" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="5.0.10" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\zarri\source\repos\Hospital_WebApi\Hospital_WebApi.Persistance\bin\Debug\net5.0\Hospital_WebApi.Persistance.runtimeconfig.json" target="lib\net5.0\Hospital_WebApi.Persistance.runtimeconfig.json" />
+    <file src="C:\Users\zarri\source\repos\Hospital_WebApi\Hospital_WebApi.Persistance\bin\Debug\net5.0\Hospital_WebApi.Persistance.dll" target="lib\net5.0\Hospital_WebApi.Persistance.dll" />
+  </files>
+</package>

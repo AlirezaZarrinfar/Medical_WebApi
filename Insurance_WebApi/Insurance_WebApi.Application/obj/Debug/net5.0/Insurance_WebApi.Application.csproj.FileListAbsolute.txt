@@ -1,0 +1,12 @@
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Application\bin\Debug\net5.0\Insurance_WebApi.Application.deps.json
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Application\bin\Debug\net5.0\Insurance_WebApi.Application.dll
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Application\bin\Debug\net5.0\ref\Insurance_WebApi.Application.dll
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Application\bin\Debug\net5.0\Insurance_WebApi.Application.pdb
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Application\obj\Debug\net5.0\Insurance_WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Application\obj\Debug\net5.0\Insurance_WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Application\obj\Debug\net5.0\Insurance_WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Application\obj\Debug\net5.0\Insurance_WebApi.Application.AssemblyInfo.cs
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Application\obj\Debug\net5.0\Insurance_WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Application\obj\Debug\net5.0\Insurance_WebApi.Application.dll
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Application\obj\Debug\net5.0\ref\Insurance_WebApi.Application.dll
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Application\obj\Debug\net5.0\Insurance_WebApi.Application.pdb

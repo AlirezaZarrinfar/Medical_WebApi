@@ -1,0 +1,12 @@
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Persistance\bin\Debug\net5.0\Insurance_WebApi.Persistance.deps.json
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Persistance\bin\Debug\net5.0\Insurance_WebApi.Persistance.dll
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Persistance\bin\Debug\net5.0\ref\Insurance_WebApi.Persistance.dll
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Persistance\bin\Debug\net5.0\Insurance_WebApi.Persistance.pdb
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Persistance\obj\Debug\net5.0\Insurance_WebApi.Persistance.csproj.AssemblyReference.cache
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Persistance\obj\Debug\net5.0\Insurance_WebApi.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Persistance\obj\Debug\net5.0\Insurance_WebApi.Persistance.AssemblyInfoInputs.cache
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Persistance\obj\Debug\net5.0\Insurance_WebApi.Persistance.AssemblyInfo.cs
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Persistance\obj\Debug\net5.0\Insurance_WebApi.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Persistance\obj\Debug\net5.0\Insurance_WebApi.Persistance.dll
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Persistance\obj\Debug\net5.0\ref\Insurance_WebApi.Persistance.dll
+C:\Users\zarri\source\repos\Hospital_WebApi\Insurance_WebApi.Persistance\obj\Debug\net5.0\Insurance_WebApi.Persistance.pdb

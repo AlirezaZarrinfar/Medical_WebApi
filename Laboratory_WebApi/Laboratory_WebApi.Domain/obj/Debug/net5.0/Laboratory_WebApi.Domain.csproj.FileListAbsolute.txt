@@ -1,0 +1,12 @@
+C:\Users\zarri\source\repos\Hospital_WebApi\Laboratory_WebApi.Domain\bin\Debug\net5.0\Laboratory_WebApi.Domain.deps.json
+C:\Users\zarri\source\repos\Hospital_WebApi\Laboratory_WebApi.Domain\bin\Debug\net5.0\Laboratory_WebApi.Domain.dll
+C:\Users\zarri\source\repos\Hospital_WebApi\Laboratory_WebApi.Domain\bin\Debug\net5.0\ref\Laboratory_WebApi.Domain.dll
+C:\Users\zarri\source\repos\Hospital_WebApi\Laboratory_WebApi.Domain\bin\Debug\net5.0\Laboratory_WebApi.Domain.pdb
+C:\Users\zarri\source\repos\Hospital_WebApi\Laboratory_WebApi.Domain\obj\Debug\net5.0\Laboratory_WebApi.Domain.csproj.AssemblyReference.cache
+C:\Users\zarri\source\repos\Hospital_WebApi\Laboratory_WebApi.Domain\obj\Debug\net5.0\Laboratory_WebApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zarri\source\repos\Hospital_WebApi\Laboratory_WebApi.Domain\obj\Debug\net5.0\Laboratory_WebApi.Domain.AssemblyInfoInputs.cache
+C:\Users\zarri\source\repos\Hospital_WebApi\Laboratory_WebApi.Domain\obj\Debug\net5.0\Laboratory_WebApi.Domain.AssemblyInfo.cs
+C:\Users\zarri\source\repos\Hospital_WebApi\Laboratory_WebApi.Domain\obj\Debug\net5.0\Laboratory_WebApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\zarri\source\repos\Hospital_WebApi\Laboratory_WebApi.Domain\obj\Debug\net5.0\Laboratory_WebApi.Domain.dll
+C:\Users\zarri\source\repos\Hospital_WebApi\Laboratory_WebApi.Domain\obj\Debug\net5.0\ref\Laboratory_WebApi.Domain.dll
+C:\Users\zarri\source\repos\Hospital_WebApi\Laboratory_WebApi.Domain\obj\Debug\net5.0\Laboratory_WebApi.Domain.pdb
