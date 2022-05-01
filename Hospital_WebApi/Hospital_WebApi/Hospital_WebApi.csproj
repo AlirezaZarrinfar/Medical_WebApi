@@ -17,6 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Hospital_WebApi.Application\Hospital_WebApi.Application.csproj" />
     <ProjectReference Include="..\Hospital_WebApi.Persistance\Hospital_WebApi.Persistance.csproj" />
+
   </ItemGroup>
 
 </Project>

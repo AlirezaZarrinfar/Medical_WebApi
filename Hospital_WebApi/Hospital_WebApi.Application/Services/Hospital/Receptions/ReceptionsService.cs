@@ -18,6 +18,11 @@ namespace Hospital_WebApi.Application.Services.Hospital.Receptions
             _client = new HttpClient();
             _context = context;
         }
+        public void Receptionlog(string format, string message)
+        {
+            string url = "https://localhost:44327/api/Logging/Produce?topic=Reception&format=" + format + "&message=" + message;
+            _client.PostAsync(url, null);
+        }
         public async Task<bool> AddReception(ReceptionsDto reception)
         {
             try
@@ -32,10 +37,12 @@ namespace Hospital_WebApi.Application.Services.Hospital.Receptions
                 };
                 await _context.Receptions.AddAsync(rec);
                 await _context.SaveChangesAsync();
+                Receptionlog("Info", "Reception added successfully");
                 return true;
             }
             catch
             {
+                Receptionlog("Warning", "Reception didnt add");
                 return false;
             }
         }
@@ -47,10 +54,12 @@ namespace Hospital_WebApi.Application.Services.Hospital.Receptions
                 var Receptions = await _context.Receptions.FindAsync(Id);
                 _context.Receptions.Remove(Receptions);
                 await _context.SaveChangesAsync();
+                Receptionlog("Info", "Reception deleted successfully");
                 return true;
             }
             catch
             {
+                Receptionlog("Warning", "Reception didnt delete");
                 return false;
             }
         }
@@ -101,10 +110,12 @@ namespace Hospital_WebApi.Application.Services.Hospital.Receptions
                 rec.IsDiscounted = reception.IsDiscounted;
                 rec.TotalPriceDiscounted = reception.TotalPriceDiscounted;
                 await _context.SaveChangesAsync();
+                Receptionlog("Info", "Reception updated successfully");
                 return true;
             }
             catch
             {
+                Receptionlog("Warning", "Reception didnt update");
                 return false;
             }
         }

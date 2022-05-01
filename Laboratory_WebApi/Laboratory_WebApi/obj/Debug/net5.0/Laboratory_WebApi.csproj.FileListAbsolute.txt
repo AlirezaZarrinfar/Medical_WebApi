@@ -132,3 +132,13 @@ C:\Users\zarri\OneDrive\دسکتاپ\WebApi\WebAoi\Laboratory_WebApi\Laboratory_
 C:\Users\zarri\OneDrive\دسکتاپ\WebApi\WebAoi\Laboratory_WebApi\Laboratory_WebApi\obj\Debug\net5.0\ref\Laboratory_WebApi.dll
 C:\Users\zarri\OneDrive\دسکتاپ\WebApi\WebAoi\Laboratory_WebApi\Laboratory_WebApi\obj\Debug\net5.0\Laboratory_WebApi.pdb
 C:\Users\zarri\OneDrive\دسکتاپ\WebApi\WebAoi\Laboratory_WebApi\Laboratory_WebApi\obj\Debug\net5.0\Laboratory_WebApi.genruntimeconfig.cache
+C:\Users\zarri\OneDrive\اسناد\GitHub\Medical_WebApi\Laboratory_WebApi\Laboratory_WebApi\obj\Debug\net5.0\Laboratory_WebApi.csproj.AssemblyReference.cache
+C:\Users\zarri\OneDrive\اسناد\GitHub\Medical_WebApi\Laboratory_WebApi\Laboratory_WebApi\obj\Debug\net5.0\Laboratory_WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zarri\OneDrive\اسناد\GitHub\Medical_WebApi\Laboratory_WebApi\Laboratory_WebApi\obj\Debug\net5.0\Laboratory_WebApi.AssemblyInfoInputs.cache
+C:\Users\zarri\OneDrive\اسناد\GitHub\Medical_WebApi\Laboratory_WebApi\Laboratory_WebApi\obj\Debug\net5.0\Laboratory_WebApi.AssemblyInfo.cs
+C:\Users\zarri\OneDrive\اسناد\GitHub\Medical_WebApi\Laboratory_WebApi\Laboratory_WebApi\obj\Debug\net5.0\Laboratory_WebApi.csproj.CoreCompileInputs.cache
+C:\Users\zarri\OneDrive\اسناد\GitHub\Medical_WebApi\Laboratory_WebApi\Laboratory_WebApi\obj\Debug\net5.0\Laboratory_WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\zarri\OneDrive\اسناد\GitHub\Medical_WebApi\Laboratory_WebApi\Laboratory_WebApi\obj\Debug\net5.0\Laboratory_WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\zarri\OneDrive\اسناد\GitHub\Medical_WebApi\Laboratory_WebApi\Laboratory_WebApi\obj\Debug\net5.0\Laboratory_WebApi.dll
+C:\Users\zarri\OneDrive\اسناد\GitHub\Medical_WebApi\Laboratory_WebApi\Laboratory_WebApi\obj\Debug\net5.0\ref\Laboratory_WebApi.dll
+C:\Users\zarri\OneDrive\اسناد\GitHub\Medical_WebApi\Laboratory_WebApi\Laboratory_WebApi\obj\Debug\net5.0\Laboratory_WebApi.pdb

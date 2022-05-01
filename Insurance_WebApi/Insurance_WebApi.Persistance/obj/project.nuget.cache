@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LoqWq5ShavcrzH2l9yByKJz6zirShW89kUl84dFZqjL+XiCRcdE7ZO08L3cmruKUKA0MuWGEGJHA+JKFoVbJjQ==",
+  "dgSpecHash": "+kJbksRPYTT581Q5sb8l2KpAQ700x3Jk/RpSwfzaYGsXwpdfNtj5Aj9UC5bMmKlZDNrFxqYGPY4PuQspHcHbFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zarri\\OneDrive\\دسکتاپ\\WebApi\\WebAoi\\Insurance_WebApi\\Insurance_WebApi.Persistance\\Insurance_WebApi.Persistance.csproj",
+  "projectFilePath": "C:\\Users\\zarri\\source\\repos\\Hospital_WebApi\\Insurance_WebApi.Persistance\\Insurance_WebApi.Persistance.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zarri\\OneDrive\\دسکتاپ\\WebApi\\WebAoi\\Insurance_WebApi\\Insurance_WebApi.Domain\\Insurance_WebApi.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\zarri\\source\\repos\\Hospital_WebApi\\Insurance_WebApi.Domain\\Insurance_WebApi.Domain.csproj",
       "projectName": "Insurance_WebApi.Domain",
-      "projectPath": "C:\\Users\\zarri\\OneDrive\\دسکتاپ\\WebApi\\WebAoi\\Insurance_WebApi\\Insurance_WebApi.Domain\\Insurance_WebApi.Domain.csproj",
+      "projectPath": "C:\\Users\\zarri\\source\\repos\\Hospital_WebApi\\Insurance_WebApi.Domain\\Insurance_WebApi.Domain.csproj",
       "packagesPath": "C:\\Users\\zarri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zarri\\OneDrive\\دسکتاپ\\WebApi\\WebAoi\\Insurance_WebApi\\Insurance_WebApi.Domain\\obj\\",
+      "outputPath": "C:\\Users\\zarri\\source\\repos\\Hospital_WebApi\\Insurance_WebApi.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

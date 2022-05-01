@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sTGCmaKsv7xuZsXL/L5w1iqRyeNdxm8gBB0OV0xnkQH+k47ZAyjrag8jHdEJnaeK3O5J+hZbs5bIQUoSIWN0XQ==",
+  "dgSpecHash": "OFeyzTjz6/Udmw+vGUaszuI9RZwAksNA9Z+co5Pdm11loteNs/6ONBiKG8iYy4nAUCjQq5qZeJi3sMUxXXNFhA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zarri\\OneDrive\\دسکتاپ\\WebApi\\WebAoi\\Insurance_WebApi\\Insurance_WebApi.Domain\\Insurance_WebApi.Domain.csproj",
+  "projectFilePath": "C:\\Users\\zarri\\source\\repos\\Hospital_WebApi\\Insurance_WebApi.Domain\\Insurance_WebApi.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

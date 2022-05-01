@@ -16,17 +16,33 @@ namespace Insurance_WebApi.Application.Services.DiscountServices
             _client = new HttpClient();
         }
 
+        public void Discountlog(string format, string message)
+        {
+            string url = "https://localhost:44327/api/Logging/Produce?topic=Discounts&format=" + format + "&message=" + message;
+            _client.PostAsync(url, null);
+        }
+
+
         public bool PutApi(long PatientId , long ReceptionId)
         {
-            string url = "https://localhost:44341/api/Hospital/receptions/";
-            var patient = _getService.GetPatientById(PatientId);
-            var reception = patient.Receptions.FirstOrDefault(p=>p.Id == ReceptionId);
-            reception.IsDiscounted = true;
-            reception.TotalPriceDiscounted = Discount(reception.TotalPrice, patient.ReceotionsCount);
-            string jsonCustomer = JsonConvert.SerializeObject(reception);
-            StringContent content = new StringContent(jsonCustomer, Encoding.UTF8, "application/json");
-            var res = _client.PutAsync(url, content).Result;
-            return true;
+            try
+            {
+                string url = "https://localhost:44341/api/Hospital/receptions/";
+                var patient = _getService.GetPatientById(PatientId);
+                var reception = patient.Receptions.FirstOrDefault(p => p.Id == ReceptionId);
+                reception.IsDiscounted = true;
+                reception.TotalPriceDiscounted = Discount(reception.TotalPrice, patient.ReceotionsCount);
+                string jsonCustomer = JsonConvert.SerializeObject(reception);
+                StringContent content = new StringContent(jsonCustomer, Encoding.UTF8, "application/json");
+                var res = _client.PutAsync(url, content).Result;
+                Discountlog("Info", $"Reception {ReceptionId} Discounted Successfully");
+                return true;
+            }
+            catch
+            {
+                Discountlog("Warning", $"Reception {ReceptionId} didnt Discounted");
+                return false;
+            }
         }
         public double Discount(double Price , int ReceptionsNumber)
         {

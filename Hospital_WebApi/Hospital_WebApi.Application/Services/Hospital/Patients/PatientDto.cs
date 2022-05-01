@@ -1,4 +1,5 @@
 ﻿using Hospital_WebApi.Application.Services.Hospital.Receptions;
+using System;
 using System.Collections.Generic;
 
 namespace Hospital_WebApi.Application.Services.Hospital.Patients
@@ -9,7 +10,9 @@ namespace Hospital_WebApi.Application.Services.Hospital.Patients
         public string Name { get; set; }
         public string LastName { get; set; }
         public string NationalCode { get; set; }
+        public DateTime BirthdayDate { get; set; }
         public List<ReceptionsDto> Receptions { get; set; }
         public int ReceotionsCount { get; set; }
+
     }
 }   

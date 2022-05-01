@@ -2,6 +2,9 @@
 using Hospital_WebApi.Application.Services.Hospital.Receptions;
 using Hospital_WebApi.Models;
 using Hospital_WebApi.Models.Hospital;
+using Hospital_WebApi.Models.HospitalModels.DoctorModels;
+using Hospital_WebApi.Models.HospitalModels.PatientModels;
+using Hospital_WebApi.Models.HospitalModels.ReceptionModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -37,24 +40,25 @@ namespace Hospital_WebApi.Controllers
         }
 
         [HttpPost("patient")]
-        public async Task<IActionResult> PostPatient(PatientModel model)
+        public async Task<IActionResult> PostPatient(PatientModelPost model)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-            var res = await _hospitalFacade.patientService.AddPatient(new Patient { Name = model.Name, LastName = model.LastName, NationalCode = model.NationalCode });
+            var res = await _hospitalFacade.patientService.AddPatient(new Patient { Name = model.Name, LastName = model.LastName, NationalCode = model.NationalCode,BirthdayDate = model.BirthdayDate });
             return Ok(res);
         }
         [HttpPut("patient")]
-        public async Task<IActionResult> PutPatient(PatientModel model)
+        public async Task<IActionResult> PutPatient(PatientModelPut model)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-            var res = await _hospitalFacade.patientService.UpdatePatient(new Patient {Id = model.Id, Name = model.Name, LastName = model.LastName, NationalCode = model.NationalCode });
+            var res = await _hospitalFacade.patientService.UpdatePatient(new Patient {Id = model.Id, Name = model.Name, LastName = model.LastName, NationalCode = model.NationalCode , BirthdayDate = model.BirthdayDate });
             return Ok(res);
+        
         }
         [HttpDelete("patient")]
         public async Task<IActionResult> DeletePatient(long Id)
@@ -75,17 +79,17 @@ namespace Hospital_WebApi.Controllers
             return Ok(res);
         }
         [HttpPost("doctor")]
-        public async Task<IActionResult> PostDoctor(DoctorModel model)
+        public async Task<IActionResult> PostDoctor(DoctorModelPost model)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-            var res = await _hospitalFacade.doctorService.AddDoctor(new Doctor { Name = model.Name, LastName = model.LastName, NationalCode = model.NationalCode });
+            var res = await _hospitalFacade.doctorService.AddDoctor(new Doctor { Name = model.Name, LastName = model.LastName, NationalCode = model.NationalCode ,MedicalNumber = model.MedicalNumber});
             return Ok(res);
         }
         [HttpPut("doctor")]
-        public async Task<IActionResult> PutDoctor(DoctorModel model)
+        public async Task<IActionResult> PutDoctor(DoctorModelPut model)
         {
             if (!ModelState.IsValid)
             {
@@ -113,7 +117,7 @@ namespace Hospital_WebApi.Controllers
             return Ok(res);
         }
         [HttpPost("receptions")]
-        public async Task<IActionResult> PostReceptions(ReceptionsModel model)
+        public async Task<IActionResult> PostReceptions(ReceptionModelsPost model)
         {
             if (!ModelState.IsValid)
             {
@@ -123,7 +127,7 @@ namespace Hospital_WebApi.Controllers
             return Ok(res);
         }
         [HttpPut("receptions")]
-        public async Task<IActionResult> PutReceptions(ReceptionsModel model)
+        public async Task<IActionResult> PutReceptions(ReceptionModelsPut model)
         {
             if (!ModelState.IsValid)
             {

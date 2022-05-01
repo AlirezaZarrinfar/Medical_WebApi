@@ -20,13 +20,13 @@ namespace Insurance_WebApi.Controllers
             _getService = getService;
             _discountService = discountService;
         }
-        [HttpGet("Insurance")]
+        [HttpGet]
         public IActionResult GetPatient(long id)
         {
             var res = _getService.GetPatientById(id);
             return Ok(res);
         }
-        [HttpPut]
+        [HttpPut("Discount")]
         public IActionResult Discount(long PatientId, long ReceptionId)
         {
             var res = _discountService.PutApi(PatientId, ReceptionId);

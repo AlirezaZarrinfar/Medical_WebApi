@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Xr8G2cVD0Uif4srEG5+nB+ZAC3tyKYwm6SyOgJWscl2Er+da7Z41g2C+hrdN4+ptoJdLd47cjqlx1MXMsgqpjg==",
+  "dgSpecHash": "fMsNqOfaMSfj9xGLvvcvvU/a4wjAOlfIMiRO4IDhcj9bs51u3rB6Qsmz5GA8lxuo/miP4WI4qBFMZAUE7doG9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zarri\\OneDrive\\دسکتاپ\\WebApi\\WebAoi\\Insurance_WebApi\\Insurance_WebApi\\Insurance_WebApi.csproj",
+  "projectFilePath": "C:\\Users\\zarri\\OneDrive\\اسناد\\GitHub\\Medical_WebApi\\Insurance_WebApi\\Insurance_WebApi\\Insurance_WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zarri\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\zarri\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

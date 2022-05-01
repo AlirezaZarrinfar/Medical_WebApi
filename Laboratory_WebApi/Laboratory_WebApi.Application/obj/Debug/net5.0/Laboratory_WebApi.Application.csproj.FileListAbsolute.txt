@@ -28,3 +28,11 @@ C:\Users\zarri\OneDrive\دسکتاپ\WebApi\WebAoi\Laboratory_WebApi\Laboratory_
 C:\Users\zarri\OneDrive\دسکتاپ\WebApi\WebAoi\Laboratory_WebApi\Laboratory_WebApi.Application\obj\Debug\net5.0\Laboratory_WebApi.Application.dll
 C:\Users\zarri\OneDrive\دسکتاپ\WebApi\WebAoi\Laboratory_WebApi\Laboratory_WebApi.Application\obj\Debug\net5.0\ref\Laboratory_WebApi.Application.dll
 C:\Users\zarri\OneDrive\دسکتاپ\WebApi\WebAoi\Laboratory_WebApi\Laboratory_WebApi.Application\obj\Debug\net5.0\Laboratory_WebApi.Application.pdb
+C:\Users\zarri\OneDrive\اسناد\GitHub\Medical_WebApi\Laboratory_WebApi\Laboratory_WebApi.Application\obj\Debug\net5.0\Laboratory_WebApi.Application.csproj.AssemblyReference.cache
+C:\Users\zarri\OneDrive\اسناد\GitHub\Medical_WebApi\Laboratory_WebApi\Laboratory_WebApi.Application\obj\Debug\net5.0\Laboratory_WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zarri\OneDrive\اسناد\GitHub\Medical_WebApi\Laboratory_WebApi\Laboratory_WebApi.Application\obj\Debug\net5.0\Laboratory_WebApi.Application.AssemblyInfoInputs.cache
+C:\Users\zarri\OneDrive\اسناد\GitHub\Medical_WebApi\Laboratory_WebApi\Laboratory_WebApi.Application\obj\Debug\net5.0\Laboratory_WebApi.Application.AssemblyInfo.cs
+C:\Users\zarri\OneDrive\اسناد\GitHub\Medical_WebApi\Laboratory_WebApi\Laboratory_WebApi.Application\obj\Debug\net5.0\Laboratory_WebApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\zarri\OneDrive\اسناد\GitHub\Medical_WebApi\Laboratory_WebApi\Laboratory_WebApi.Application\obj\Debug\net5.0\Laboratory_WebApi.Application.dll
+C:\Users\zarri\OneDrive\اسناد\GitHub\Medical_WebApi\Laboratory_WebApi\Laboratory_WebApi.Application\obj\Debug\net5.0\ref\Laboratory_WebApi.Application.dll
+C:\Users\zarri\OneDrive\اسناد\GitHub\Medical_WebApi\Laboratory_WebApi\Laboratory_WebApi.Application\obj\Debug\net5.0\Laboratory_WebApi.Application.pdb

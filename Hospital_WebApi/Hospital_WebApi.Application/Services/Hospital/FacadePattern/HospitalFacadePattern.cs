@@ -2,15 +2,20 @@
 using Hospital_WebApi.Application.Services.Hospital.Doctors;
 using Hospital_WebApi.Application.Services.Hospital.Patients;
 using Hospital_WebApi.Application.Services.Hospital.Receptions;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace Hospital_WebApi.Application.Services.Hospital.FacadePattern
 {
     public class HospitalFacadePattern : IHospitalFacadePattern
     {
         private readonly IDatabaseContext _context;
-        public HospitalFacadePattern(IDatabaseContext context)
+        private IMemoryCache _cache;
+
+        public HospitalFacadePattern(IDatabaseContext context, IMemoryCache cache)
         {
+            _cache = cache;
             _context = context;
+
         }
         // PatientService
         private IPatientService _patientService;
@@ -18,7 +23,7 @@ namespace Hospital_WebApi.Application.Services.Hospital.FacadePattern
         {
             get
             {
-                return _patientService = _patientService ?? new PatientService(_context, receptionsService);
+                return _patientService = _patientService ?? new PatientService(_context, receptionsService,_cache);
             }
         }
         // DoctorService

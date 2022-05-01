@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F1FWSusnJK1SbXOZtooHc9DW9kzoLuW1gq+iaR6rGutDBAJG6iXEnTvKvqf5yXgkMK5WR/46tBvuWiUGTjKebQ==",
+  "dgSpecHash": "T8dbqehwsZjqpc6qz2j0boH+Ng80S1wn0zLGatyutRjR34+knWYPPzFnMoN+dY/ZBtg2unLsQASW2P/K/5WSRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zarri\\OneDrive\\دسکتاپ\\WebApi\\WebAoi\\Insurance_WebApi\\Insurance_WebApi.Application\\Insurance_WebApi.Application.csproj",
+  "projectFilePath": "C:\\Users\\zarri\\OneDrive\\اسناد\\GitHub\\Medical_WebApi\\Insurance_WebApi\\Insurance_WebApi.Application\\Insurance_WebApi.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zarri\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
